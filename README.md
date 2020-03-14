@@ -94,7 +94,7 @@ cat id_rsa.pub
 
 ![ssh-2](https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-2.png)
 
-然后，登陆到Github，找到你的账号settings里的SSH and GPG keys，选择增加一个新的ssh-key，title可以随便输入你喜欢的名字，底下的打输入框中，复制你刚刚在命令行中打印出来的公钥内容(从"ssh-rsa"开始一直到你的邮箱结束)。然后点击底部按钮即可添加完成。
+然后，登陆到Github，去右上角找到你的账号settings里的SSH and GPG keys，选择增加一个新的ssh-key，title可以随便输入你喜欢的名字，底下的打输入框中，复制你刚刚在命令行中打印出来的公钥内容(从"ssh-rsa"开始一直到你的邮箱结束)。然后点击底部按钮即可添加完成。
 
 > Note: 不要复制成你的私钥`id_rsa`。私钥比公钥要长的多。
 
@@ -106,5 +106,28 @@ cat id_rsa.pub
 
 #### 验证一下
 
-然后我们简单的验证一下
+然后我们简单的验证一下。还是在页面右上角，点击那个加号，选择New Repository，新建一个代码仓库。
+
+<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/confirm-1.png" width="30%" height="30%"/>
+
+`Repository name`是你的项目名字，不可以有空格。`Description`是你的项目描述。`Public`代表任何人都能看到这个项目，`Private`代表只有你自己能看到这个项目。最后，建议选择“Initialize this repository with a README”，这样项目创建的时候会自己带一个Readme文件。
+
+<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/confirm-2.png" width="80%" height="80%"/>
+
+然后会跳转到新项目的主页，找到页面上唯一一个绿色按钮，点下去，然后再点图中的按钮，将你的项目地址复制到剪贴板。
+
+<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/confirm-3.png" width="40%" height="40%"/>
+
+最后，回到你的命令行，依次运行以下命令（#号后面的不用复制）：
+
+```bash
+cd ~/Desktop											# 进入桌面
+git clone <your_repo_address>     # clone你刚刚创建的项目
+```
+
+注意`<your_repo_address>`要替换成你刚刚复制的项目地址，不要有尖括号或者双引号。
+
+可能会跳出来一个问你是否继续连接的提示，输入`yes`并回车就好了。
+
+然后过了一会，等它运行完成，你就会在桌面上看到一个以你项目为名字的文件夹，内容就是你刚刚创建的项目。至此，说明你安装并配置Git成功了。现在，**你已经可以使用命令行来操作git并完成所有的版本控制的功能了**。
 
