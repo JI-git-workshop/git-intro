@@ -98,7 +98,7 @@ cat id_rsa.pub
 
 > Note: 不要复制成你的私钥`id_rsa`。私钥比公钥要长的多。
 
-![ssh-3](https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-3.png =300x400)
+<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-3.png" width="50%" height="50%"/>
 
 ![ssh-4](https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-4.png)
 
