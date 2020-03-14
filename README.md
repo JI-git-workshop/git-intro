@@ -1,17 +1,24 @@
 # Git Intro
 2020 JI Git Workshop all in one.
 
-
-
 ## 课前准备
 
 考虑到有些东西没梯子要下到明年，所以提前为大家提供了各种资料：[下载地址]()
 
 有梯子的同学自己去下也可以（相信有梯子同学的水平）。
 
-建议你对命令行的基本使用提前有一定的理解，虽然这个workshop不会过多的使用命令行。这里提供简短的教程：
+建议你对命令行的基本使用提前有一定的理解，虽然这个workshop不会过多的使用命令行，不看的话问题也不大。这里提供简短的教程：
 
 * (MIT某门课程)[https://missing.csail.mit.edu/2020/course-shell/]
+
+* 自行百度（cmd和其他shell会有细微差别，我也没办法给出教程）
+* 在这个项目的根目录你还会发现一个叫`python.pdf`的文档，这是我很久以前写的一个python入门教程，里面有一点关于命令行的介绍（有兴趣可以看看
+
+Git教程推荐：
+
+* [非官方教程](https://www.liaoxuefeng.com/wiki/896043488029600)(推荐)
+* [菜鸟学堂](https://www.runoob.com/w3cnote/git-five-minutes-tutorial.html)
+* [官方教程](https://git-scm.com/book/zh/v2)
 
 ### 安装Git
 
@@ -162,3 +169,14 @@ Git GUI简单来说就是**一类**可以免去你敲命令行的痛苦的桌面
 
 P.S：其实GitKraken的功能强大一点，但是之前它突然开始恰饭了，我就弃用了，改用Sourcetree。但是现在GitKraken好像又不恰饭了💩，所以还是推荐给大家。
 
+### 加入Organization
+
+我创建了一个用来教学和用于Practice的Github组织，你也可以自己创建。
+
+Organization地址：[点这](https://github.com/JI-git-workshop)
+
+完成了上面的课前准备后，请加入这个组织。请将你**注册Github的邮箱地址**发送至我的邮箱: nichujie@sjtu.edu.cn，邮件标题以`[git]`开头。记得查看邮箱，会有邮件让你确认加入组织。
+
+### 扩展练习
+
+待你加入了这个组织后，尝试使用上面的命令（或者GUI）将本项目clone到你的本地（电脑）。
