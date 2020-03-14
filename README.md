@@ -100,7 +100,7 @@ cat id_rsa.pub
 
 ![ssh-3](https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-3.png)
 
-![ssh-4](https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-4.png)
+![ssh-4](https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-4.png 300x400)
 
 ![ssh-5](https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-5.png)
 
