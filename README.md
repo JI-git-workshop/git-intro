@@ -1,13 +1,17 @@
 # Git Intro
 2020 JI Git Workshop all in one.
 
-[TOC]
+
 
 ## 课前准备
 
 考虑到有些东西没梯子要下到明年，所以提前为大家提供了各种资料：[下载地址]()
 
 有梯子的同学自己去下也可以（相信有梯子同学的水平）。
+
+建议你对命令行的基本使用提前有一定的理解，虽然这个workshop不会过多的使用命令行。这里提供简短的教程：
+
+* (MIT某门课程)[https://missing.csail.mit.edu/2020/course-shell/]
 
 ### 安装Git
 
@@ -121,7 +125,7 @@ cat id_rsa.pub
 最后，回到你的命令行，依次运行以下命令（#号后面的不用复制）：
 
 ```bash
-cd ~/Desktop											# 进入桌面
+cd ~/Desktop                      # 进入桌面
 git clone <your_repo_address>     # clone你刚刚创建的项目
 ```
 
@@ -129,5 +133,32 @@ git clone <your_repo_address>     # clone你刚刚创建的项目
 
 可能会跳出来一个问你是否继续连接的提示，输入`yes`并回车就好了。
 
-然后过了一会，等它运行完成，你就会在桌面上看到一个以你项目为名字的文件夹，内容就是你刚刚创建的项目。至此，说明你安装并配置Git成功了。现在，**你已经可以使用命令行来操作git并完成所有的版本控制的功能了**。
+然后过了一会，等它运行完成，你就会在桌面上看到一个以你项目为名字的文件夹，内容就是你刚刚创建的项目。至此，说明你安装并配置Git成功了。
+
+现在，**你已经可以使用命令行来操作git并完成所有的版本控制的功能了**。
+
+### 安装一个你喜欢的Git GUI
+
+Git GUI简单来说就是**一类**可以免去你敲命令行的痛苦的桌面软件。它与Git的关系仅仅是锦上添花，没有GUI软件你照样可以用命令行里的Git完成所有操作。当然GUI软件会增加一些实用的工具。
+
+>  GUI软件仅仅是一层壳，它所进行的所有操作仍然是在背后默默的调用命令行里的`git`命令。
+
+这里推荐的GUI有两个：
+
+* Sourcetree (Windows, Mac)
+* GitKraken (Windows, Mac, Linux)
+
+这两个总体的界面比较好看，而且易于操作，较为稳定，而且都是免费的。（当然会有付费功能但是不大用得到）
+
+到上面的资料包里面找到对应的版本，然后一步步安装就好了。（还是推荐sourcetree，演示会用，但是GitKraken操作其实是一样的）
+
+* Sourcetree界面：
+
+<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/sourcetree.png" width="60%" height="60%"/>
+
+* GitKraken界面:
+
+<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/kraken.png" width="60%" height="60%"/>
+
+P.S：其实GitKraken的功能强大一点，但是之前它突然开始恰饭了，我就弃用了，改用Sourcetree。但是现在GitKraken好像又不恰饭了💩，所以还是推荐给大家。
 
