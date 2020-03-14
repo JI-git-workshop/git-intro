@@ -48,7 +48,9 @@ Git教程推荐：
 
 由于其他网站Orgnization人数受限，为了演示和实践方便还是请大家注册一个Github账号。(国内上这个网站比较慢，但是等一会还是能出来的，推荐chrome或者firefox浏览器，别用IE就行。有梯子的同学可以开起来了)
 
-前往[Github](https://github.com)创建一个账号(Sign Up): ![github-sign](https://github.com/JI-git-workshop/git-intro/blob/master/img/github-sign.png)
+前往[Github](https://github.com)创建一个账号(Sign Up): 
+
+<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/github-sign.png" width="50%" height="50%"/>
 
 
 
@@ -109,11 +111,11 @@ cat id_rsa.pub
 
 > Note: 不要复制成你的私钥`id_rsa`。私钥比公钥要长的多。
 
-<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-3.png" width="50%" height="50%"/>
+<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-3.png" width="30%" height="30%"/>
 
-![ssh-4](https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-4.png)
+<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-4.png" width="60%" height="60%"/>
 
-![ssh-5](https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-5.png)
+<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/ssh-5.png" width="60%" height="60%"/>
 
 #### 验证一下
 
