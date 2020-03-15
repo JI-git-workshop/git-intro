@@ -16,7 +16,9 @@
 
 Git教程推荐：
 
-* [非官方教程](https://www.liaoxuefeng.com/wiki/896043488029600)(推荐)
+* [一个交互式教程](https://learngitbranching.js.org/)(推荐)
+
+* [非官方文字教程](https://www.liaoxuefeng.com/wiki/896043488029600)(推荐)
 * [菜鸟学堂](https://www.runoob.com/w3cnote/git-five-minutes-tutorial.html)
 * [官方教程](https://git-scm.com/book/zh/v2)
 
