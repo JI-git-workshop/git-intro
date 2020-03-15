@@ -186,3 +186,7 @@ Organization地址：[点这](https://github.com/JI-git-workshop)
 ### 扩展练习
 
 待你加入了这个组织后，尝试使用上面的命令（或者GUI）将本项目clone到你的本地（电脑）。
+
+下了Sourcetree的，先会让你注册个叫Atlassian账号的，这个网站可能比较慢，开梯子或者多等等就行了。然后进去之后可能还会让你配置下Github账号什么的，照着做就行了。
+
+下GitKraken的，进去就有通过Github登陆的选项，选那个就可以了。
