@@ -131,6 +131,8 @@ cat id_rsa.pub
 
 然后会跳转到新项目的主页，找到页面上唯一一个绿色按钮，点下去，然后再点图中的按钮，将你的项目地址复制到剪贴板。
 
+> 这里尽量复制以git@开头的地址，如果你默认显示的地址是https开头的，点use SSH就可以看见了。
+
 <img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/confirm-3.png" width="40%" height="40%"/>
 
 最后，回到你的命令行，依次运行以下命令（#号后面的不用复制）：
@@ -140,7 +142,7 @@ cd ~/Desktop                      # 进入桌面
 git clone <your_repo_address>     # clone你刚刚创建的项目
 ```
 
-注意`<your_repo_address>`要替换成你刚刚复制的项目地址，不要有尖括号或者双引号。
+注意`<your_repo_address>`要替换成你刚刚复制的项目地址，**不要有尖括号或者双引号**。
 
 可能会跳出来一个问你是否继续连接的提示，输入`yes`并回车就好了。
 
