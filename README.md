@@ -205,4 +205,4 @@ Organization地址：[点这](https://github.com/JI-git-workshop)
 
 #### 如果生成失败了
 
-参考这一篇https://blog.csdn.net/z1067832450_/article/details/89301751，使用Sourcetree自带的putty生成密钥并上传至Github
+参考[这一篇](https://blog.csdn.net/z1067832450_/article/details/89301751)，使用Sourcetree自带的putty生成密钥并上传至Github。
