@@ -73,6 +73,8 @@ git config --global user.email "your@email.com"
 
 ### 配置ssh-key并关联Github
 
+windows用户如果这步没法成功，可以通过安装Sourcetree来拯救你。
+
 #### 生成ssh-key
 
 简单来说，这一步是为了能让Github验证你的身份，让你能顺利的下载和上传代码。ssh-key是一种密码，通常保存在两个文件中，分别是私钥和公钥。公钥分享给他人，用于验证你的身份；私钥需要自己妥善保存，不可分享给他人。
@@ -190,3 +192,17 @@ Organization地址：[点这](https://github.com/JI-git-workshop)
 下了Sourcetree的，先会让你注册个叫Atlassian账号的，这个网站可能比较慢，开梯子或者多等等就行了。然后进去之后可能还会让你配置下Github账号什么的，照着做就行了。
 
 下GitKraken的，进去就有通过Github登陆的选项，选那个就可以了。
+
+### 关于Sourcetree初始化&添加ssh-key
+
+#### 如果你前面生成ssh-key成功了
+
+请前往`工具->选项->一般`里，将默认的ssh客户端换成`OpenSSH`，选择你刚刚生成的密钥对中的**私钥（id_rsa）**，并**重启sourcetree**。一般默认的路径就是对的，不用改。
+
+<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/tree-1.png" width="80%" height="80%"/>
+
+<img src="https://github.com/JI-git-workshop/git-intro/blob/master/img/tree-2.png" width="80%" height="80%"/>
+
+#### 如果生成失败了
+
+参考这一篇https://blog.csdn.net/z1067832450_/article/details/89301751，使用Sourcetree自带的putty生成密钥并上传至Github
