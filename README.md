@@ -206,3 +206,6 @@ Organization地址：[点这](https://github.com/JI-git-workshop)
 #### 如果生成失败了
 
 参考[这一篇](https://blog.csdn.net/z1067832450_/article/details/89301751)，使用Sourcetree自带的putty生成密钥并上传至Github。
+
+**注：这个教程里是上传到Gitlab，但前面生成putty密钥是一样的，后面换成上传到GitHub就行了，也就是本文前面的步骤。**
+
