@@ -209,3 +209,6 @@ Organization地址：[点这](https://github.com/JI-git-workshop)
 
 **注：这个教程里是上传到Gitlab，但前面生成putty密钥是一样的，后面换成上传到GitHub就行了，也就是本文前面的步骤。**
 
+p.s. 如果这样还是失败，请到设置界面的验证（或者账户）里面，尝试添加你的GitHub账号，验证方式选择OAuth会让你去GitHub登陆，选择Basic的话会直接让你输入用户名密码。
+
+这样还是不行的话。。。。
